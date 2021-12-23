@@ -1,7 +1,9 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <div id="nav" class="navbar is-info">
+    <a href="" class="navbar-item is-white">
+      <router-link to="/">Home</router-link>
+    </a>
   </div>
   <router-view />
 </template>
@@ -28,3 +30,11 @@
   color: #42b983;
 }
 </style>
+
+<script>
+export default {
+  setup() {
+    
+  },
+}
+</script>
